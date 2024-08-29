@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#result {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.error{
+    color: red;
+}
+.form-control{
+    background-color:0;
+}
+.container{
+    width: 100%;
+    
+    
+}
+.card{
+    border-radius: 20px;
+}
+.card-body{
+    background-color:#002540;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.card-title{
+    color: #0070f7;
+}
+.okb{
+    background-color: rgb(228, 17, 52);
+    border-radius: 20px;
+    color: black;
+    font-weight: 900;
+    margin: 5%;
+}
+.txt{
+    color: red;
+}
