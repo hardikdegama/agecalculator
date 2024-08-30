@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const birthdateValue = birthdateInput.value;
         if (!birthdateValue) {
             resultDisplay.textContent = 'Please enter a valid birthdate.';
+            
             return;
         }
 

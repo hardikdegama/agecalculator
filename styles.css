@@ -1,51 +1,120 @@
+/* General Styles */
 body {
-    background-color: black;
+    background-color: #000000;
 }
 
 .card {
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.card-body {
+    background-color: #1f2a2d;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
 .card-title {
+    color: #0080aa;
     text-align: center;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 0 red;
+}
+.entervalue{
+    color:  #dce6e8;
+    font-weight: 900;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px blue;
+}
+#birthdate {
+ border-color: #ffffff;
+ color: rgb(145, 244, 7);
+ border-radius: 20px;
 }
 
 #result {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-}
-.error{
     color: red;
 }
-.form-control{
-    background-color:0;
+
+.txt{
+    color: #ffd027;
 }
-.container{
+
+.form-control {
+    background-color: transparent;
+}
+
+.container {
     width: 100%;
-    
-    
 }
-.card{
-    border-radius: 20px;
-}
-.card-body{
-    background-color:#002540;
-    border: 1px solid black;
-    border-radius: 20px;
-}
-.card-title{
-    color: #0070f7;
-}
-.okb{
-    background-color: rgb(228, 17, 52);
+
+.okb {
+    background-color: #ffd027;
     border-radius: 20px;
     color: black;
     font-weight: 900;
     margin: 5%;
 }
-.txt{
+/* mobile-size*/
+@media (max-width: 425px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .okb {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 10px 0;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    #birthdate {
+        font-size: 14px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+    .error {
+        color: red;
+    }
+}
+/* Responsive Styles for screens up to 768px */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .card {
+        border-radius: 15px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .okb {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 10px 0;
+    }
+
+    #birthdate {
+        font-size: 16px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+
+
+.error {
     color: red;
+}
 }
